@@ -33,14 +33,14 @@ export default function Header(){
 
   return (
     <header className="flex flex-row bg-deep-gray px-16 py-12 justify-between items-center font-sans text-white">
-      <div className="flex font-bold text-4xl">
+      <div className="flex font-bold text-5xl">
         <a onClick={() => handlePageChange("")} className='cursor-pointer'>
           <h1>Rodrigo</h1>
         </a>
         <h1 className={dotColorDict[page] + " duration-200 ease-in-out"}>.</h1>
       </div>
       
-      <div className="flex w-3/6 justify-between font-thin cursor-pointer">
+      <div className="flex w-3/6 justify-between font-thin cursor-pointer text-xl">
         <div className='w-full flex justify-center'>
           <a onClick={() => handlePageChange("academic")} 
              className={`border-b-2 border-b-deep-gray hover:border-b-my-red hover:font-normal duration-200 ease-in-out ${page === "academic" ? 'font-normal border-b-my-red' : ''}`}>
