@@ -14,7 +14,7 @@ module.exports = {
         'my-red': '#EF6F6C',
         'my-green': '#74D3AE',
         'my-purple': '#9055A2',
-        'my-orange': '#FEB95F',
+        'my-orange': '#FE950B',
       },
     },
   },

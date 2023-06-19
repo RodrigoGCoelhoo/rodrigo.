@@ -18,12 +18,12 @@ interface ContextProps {
 
 const GlobalContext = createContext<ContextProps>({
     page: 'home',
-    language: 'pt'
+    language: 'PT'
 } as ContextProps)
 
 export const GlobalContextProvider = ({ children } : any) => {
     const [page, setPage] = useState('home');
-    const [language, setLanguage] = useState('pt');
+    const [language, setLanguage] = useState('PT');
 
     return (
         <GlobalContext.Provider value={{ page, setPage, language, setLanguage }}>
