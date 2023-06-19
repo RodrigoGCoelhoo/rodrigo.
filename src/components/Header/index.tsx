@@ -4,7 +4,7 @@ import { useGlobalContext } from '@/context/store';
 import { useRouter } from 'next/navigation'
 
 interface HeaderProps {
-  page: 'home' | 'academic' | 'professional' | 'personal' | 'certificates' | 'projects';
+  page: 'home' | 'academic' | 'professional' | 'personal' | 'certificates' | 'projects' | 'contact';
 }
 
 export default function Header(){
@@ -19,28 +19,29 @@ export default function Header(){
     'professional': "text-my-green",
     'personal': "text-my-blue",
     'certificates': "text-my-yellow",
-    'projects': "text-my-purple"
+    'projects': "text-my-purple",
+    'contact': 'text-my-orange'
   }
 
 
 
 
 
-  function handlePageChange(page: '' | 'academic' | 'professional' | 'personal' | 'certificates' | 'projects'){
+  function handlePageChange(page: '' | 'academic' | 'professional' | 'personal' | 'certificates' | 'projects' | 'contact'){
     setPage(page);
     router.push(`/${page}`);
   }
 
   return (
     <header className="flex flex-row bg-deep-gray px-16 py-12 justify-between items-center font-sans text-white">
-      <div className="flex font-bold text-5xl">
+      <div className="flex font-bold text-4xl">
         <a onClick={() => handlePageChange("")} className='cursor-pointer'>
           <h1>Rodrigo</h1>
         </a>
         <h1 className={dotColorDict[page] + " duration-200 ease-in-out"}>.</h1>
       </div>
       
-      <div className="flex w-3/6 justify-between font-thin cursor-pointer text-xl">
+      <div className="flex w-4/6 justify-between font-thin cursor-pointer text-l">
         <div className='w-full flex justify-center'>
           <a onClick={() => handlePageChange("academic")} 
              className={`border-b-2 border-b-deep-gray hover:border-b-my-red hover:font-normal duration-200 ease-in-out ${page === "academic" ? 'font-normal border-b-my-red' : ''}`}>
@@ -69,6 +70,12 @@ export default function Header(){
           <a onClick={() => handlePageChange("projects")} 
              className={`border-b-2 border-b-deep-gray hover:border-b-my-purple hover:font-normal duration-200 ease-in-out ${page === "projects" ? 'font-normal border-b-my-purple' : ''}`}>
             PROJETOS
+          </a>
+        </div>
+        <div className="w-full flex justify-center">
+          <a onClick={() => handlePageChange("contact")} 
+             className={`border-b-2 border-b-deep-gray hover:border-b-my-orange hover:font-normal duration-200 ease-in-out ${page === "contact" ? 'font-normal border-b-my-orange' : ''}`}>
+            CONTATO
           </a>
         </div>
       </div>
