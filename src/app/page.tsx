@@ -1,6 +1,8 @@
+'use client';
 
 // Libs
 import Image from 'next/image'
+import { useGlobalContext } from '@/context/store';
 
 // Assets
 import python from '../../public/python.png'
@@ -15,14 +17,22 @@ import typescript from '../../public/typescript.png'
 import github from '../../public/github.png'
 
 export default function Home() {
+
+  const { language } = useGlobalContext();
+
+
   return (
     <div className="px-32 py-20 font-sans flex flex-row items-center justify-between">
       
       <div>
-        <h1 className='text-8xl font-extralight mb-4'>Olá! Eu sou o</h1>
+        <h1 className='text-8xl font-extralight mb-4'>
+          {language === "PT" ? "Olá! Eu sou o" : "Hello! I am"}
+        </h1>
         <h1 className='text-8xl font-normal mb-8'>Rodrigo Coelho</h1>
 
-        <h4 className='text-xl font-light ml-1'>Desenvolvedor de software e apaixonado por tecnologia.</h4>
+        <h4 className='text-xl font-light ml-1'>
+          {language === "PT" ? "Desenvolvedor de software e apaixonado por tecnologia." : "Software developer and passionate about technology."}
+        </h4>
 
         <div className='mt-16'>
           <div className='flex flex-row justify-between items-center mb-6'>
