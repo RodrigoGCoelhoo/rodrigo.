@@ -1,10 +1,16 @@
 
+import AcademicCard from "../AcademicCard";
+
 interface AcademicTimelineProps {
   date: string;
   title: string;
+  subjects: {
+    title: string;
+    content: string;
+  }[]
 }
 
-export default function AcademicTimeline({date, title} : AcademicTimelineProps){
+export default function AcademicTimeline({date, title, subjects} : AcademicTimelineProps){
   return(
     <div className="flex flex-row w-full h-56">
       <span className="font-light text-my-gray whitespace-pre text-base">
@@ -17,12 +23,18 @@ export default function AcademicTimeline({date, title} : AcademicTimelineProps){
       </div>
 
       <div className="w-full flex flex-col">
-        <span className="text-lg m-0 leading-5">
+        <span className="text-lg leading-5">
           {title}
         </span>
 
-        <div className="w-full h-full my-8">
-          {/* Academic cards */}
+        <div className="w-full my-6 flex flex-row overflow-x-scroll">
+          {subjects.map((subject) => (
+            <AcademicCard 
+              key={subject.title} 
+              title={subject.title} 
+              content={subject.content}
+            />
+          ))}
         </div>
       </div>
     </div>
