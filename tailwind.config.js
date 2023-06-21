@@ -15,6 +15,7 @@ module.exports = {
         'my-green': '#74D3AE',
         'my-purple': '#9055A2',
         'my-orange': '#FE950B',
+        'my-gray': '#777777'
       },
     },
   },
