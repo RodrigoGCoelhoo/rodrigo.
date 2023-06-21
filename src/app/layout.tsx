@@ -1,10 +1,10 @@
 import './globals.css'
 import { ReactNode } from "react"
-import { Roboto } from '@next/font/google'
+import { Inter } from 'next/font/google'
 import { GlobalContextProvider } from '../context/store'
 import Header from "../components/Header"
 
-const roboto = Roboto({
+const inter = Inter({
   subsets: ['latin'],
   weight: '400',
 })
@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>
+      <body className={inter.className}>
         <GlobalContextProvider>
           <Header/>
           {children}
