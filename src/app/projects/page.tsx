@@ -1,7 +1,7 @@
 export default function Projects() {
-    return (
-        <>
-            <h1>Projects</h1>
-        </>
-    )
+  return (
+    <>
+      <h1>Projects</h1>
+    </>
+  )
 }

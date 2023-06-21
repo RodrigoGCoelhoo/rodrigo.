@@ -1,37 +1,38 @@
-
-import AcademicCard from "../AcademicCard";
+import AcademicCard from '../AcademicCard'
 
 interface AcademicTimelineProps {
-  date: string;
-  title: string;
+  date: string
+  title: string
   subjects: {
-    title: string;
-    content: string;
+    title: string
+    content: string
   }[]
 }
 
-export default function AcademicTimeline({date, title, subjects} : AcademicTimelineProps){
-  return(
-    <div className="flex flex-row w-full h-56">
-      <span className="font-light text-my-gray whitespace-pre text-base">
+export default function AcademicTimeline({
+  date,
+  title,
+  subjects,
+}: AcademicTimelineProps) {
+  return (
+    <div className="flex h-56 w-full flex-row">
+      <span className="whitespace-pre text-base font-light text-my-gray">
         {date}
       </span>
 
       <div className="relative mx-16">
-        <div className="absolute w-6 h-6 bg-my-red rounded-full top-0 left-1/2 transform -translate-x-1/2"/>
-        <div className="absolute w-2 h-full bg-my-red left-1/2 transform -translate-x-1/2 mt-2"/>
+        <div className="absolute left-1/2 top-0 h-6 w-6 -translate-x-1/2 transform rounded-full bg-my-red" />
+        <div className="absolute left-1/2 mt-2 h-full w-2 -translate-x-1/2 transform bg-my-red" />
       </div>
 
-      <div className="w-full flex flex-col">
-        <span className="text-lg leading-5">
-          {title}
-        </span>
+      <div className="flex w-full flex-col">
+        <span className="text-lg leading-5">{title}</span>
 
-        <div className="w-full my-6 flex flex-row overflow-x-scroll">
+        <div className="my-6 flex w-full flex-row overflow-x-scroll">
           {subjects.map((subject) => (
-            <AcademicCard 
-              key={subject.title} 
-              title={subject.title} 
+            <AcademicCard
+              key={subject.title}
+              title={subject.title}
               content={subject.content}
             />
           ))}
