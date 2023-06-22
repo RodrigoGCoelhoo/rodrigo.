@@ -22,20 +22,22 @@ export default function AcademicTimeline({
 
       <div className="relative mx-16">
         <div className="absolute left-1/2 top-0 h-6 w-6 -translate-x-1/2 transform rounded-full bg-my-red" />
-        <div className="absolute left-1/2 mt-2 h-full w-2 -translate-x-1/2 transform bg-my-red" />
+        <div className="absolute left-1/2 top-2 h-[101%] w-2 -translate-x-1/2 transform bg-my-red" />
       </div>
 
-      <div className="flex w-full flex-col">
+      <div className="flex w-full flex-col overflow-y-hidden">
         <span className="text-lg leading-5">{title}</span>
 
-        <div className="my-6 flex w-full flex-row overflow-x-scroll">
-          {subjects.map((subject) => (
-            <AcademicCard
-              key={subject.title}
-              title={subject.title}
-              content={subject.content}
-            />
-          ))}
+        <div className="relative flex items-center">
+          <div className="scroll my-2 overflow-x-scroll scroll-smooth whitespace-nowrap py-4">
+            {subjects.map((subject) => (
+              <AcademicCard
+                key={subject.title}
+                title={subject.title}
+                content={subject.content}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>
