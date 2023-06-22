@@ -29,7 +29,7 @@ export default function AcademicTimeline({
         <span className="text-lg leading-5">{title}</span>
 
         <div className="relative flex items-center">
-          <div className="scroll my-2 overflow-x-scroll scroll-smooth whitespace-nowrap py-4">
+          <div className="scroll my-2 overflow-x-scroll scroll-smooth whitespace-nowrap py-4 pl-2">
             {subjects.map((subject) => (
               <AcademicCard
                 key={subject.title}
