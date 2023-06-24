@@ -6,7 +6,6 @@ import Header from '../components/Header'
 
 const inter = Inter({
   subsets: ['latin'],
-  weight: '400',
 })
 
 export const metadata = {
