@@ -1,0 +1,38 @@
+[
+  {
+    "PT": {
+      "title": "Clusterização e Visualização de Notícias Brasileiras com Técnicas de NLP",
+      "shortDescription": "Projeto desenvolvido em parceria com o BCG Gamma teve como objetivo utilizar técnicas de aprendizagem não supervisionadas para agrupar notícias dos principais veículos de informação brasileiros. A coleta dos mais de 280.000 artigos foi realizada através de um extenso trabalho de web-scraping, enquanto as visualizações foram consolidadas num dashboard interativo, com diferentes filtros e opções de temas.",
+      "repositoryLink": "https://github.com/RodrigoGCoelhoo/Data_BCG_News"
+    },
+    "EN": {
+      "title": "Clustering and Visualization of Brazilian News with NLP Techniques",
+      "shortDescription": "Project developed in partnership with BCG Gamma aimed to use unsupervised machine learning techniques to group news from the main Brazilian information vehicles. The collection of more than 280,000 articles was carried out through an extensive web-scraping work, while the visualizations were consolidated in an interactive dashboard, with different filters and options of themes.",
+      "repositoryLink": "https://github.com/RodrigoGCoelhoo/Data_BCG_News"
+    }
+  },
+  {
+    "PT": {
+      "title": "Rodrigo.",
+      "shortDescription": "Site portfolio desenvolvido usando Next.js, TailwindCSS e TypeScript. O site é hospedado no Vercel e todo seu código fonte é aberto e pode ser encontrado no GitHub.",
+      "repositoryLink": "https://github.com/RodrigoGCoelhoo/rodrigo."
+    },
+    "EN": {
+      "title": "Rodrigo.",
+      "shortDescription": "Portfolio website developed using Next.js, TailwindCSS and TypeScript. The website is hosted on Vercel and all its source code is open and can be found on GitHub.",
+      "repositoryLink": "https://github.com/RodrigoGCoelhoo/rodrigo."
+    }
+  },
+  {
+    "PT": {
+      "title": "Node.js - Rodrigo Manguinho",
+      "shortDescription": "Aprendendo a criar uma API completa com Typescript utilizando TDD, Clean Architecture, Design Patterns e SOLID.",
+      "repositoryLink": "https://github.com/RodrigoGCoelhoo/clean-node-ts-api"
+    },
+    "EN": {
+      "title": "Node.js - Rodrigo Manguinho",
+      "shortDescription": "Learning how to create a complete API with Typescript using TDD, Clean Architecture, Design Patterns and SOLID.",
+      "repositoryLink": "https://github.com/RodrigoGCoelhoo/clean-node-ts-api"
+    }
+  }
+]
