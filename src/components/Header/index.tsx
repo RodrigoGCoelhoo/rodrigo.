@@ -46,7 +46,7 @@ export default function Header() {
         <h1 className={dotColorDict[page] + ' duration-200 ease-in-out'}>.</h1>
       </div>
 
-      <div className="text-l flex w-4/6 cursor-pointer justify-between font-thin">
+      <div className="text-l flex w-3/6 cursor-pointer justify-between font-thin">
         <div className="flex w-full justify-center">
           <Link
             href="/academic"
@@ -80,7 +80,7 @@ export default function Header() {
             {language === 'PT' ? 'PESSOAL' : 'PERSONAL'}
           </Link>
         </div>
-        <div className="flex w-full justify-center">
+        {/* <div className="flex w-full justify-center">
           <Link
             href="/certificates"
             onClick={() => setPage('certificates')}
@@ -90,7 +90,7 @@ export default function Header() {
           >
             {language === 'PT' ? 'CERTIFICADOS' : 'CERTIFICATES'}
           </Link>
-        </div>
+        </div> */}
         <div className="flex w-full justify-center">
           <Link
             href="/projects"
