@@ -1,0 +1,42 @@
+[
+  {
+    "PT": {
+      "startDate": "FEV 2021",
+      "endDate": "OUT 2021",
+      "title": "Iris8",
+      "subtitle": "Estagiário de Desenvolvimento de Software",
+      "description": ["Desenvolvi scripts para automatizar a captura do estado dos servidores e postá-los em um banco de dados MySQL gerenciado por um backend em Node.js e Express", "Projetei e desenvolvi um dashboard interativo em React para visualizar todos os dados capturados pelo script", "Criei ferramentas para melhorar a capacidade de detecção das câmeras utilizando OpenCV em Python"],
+      "continuous": false
+    },
+    "EN": {
+      "startDate": "FEB 2021",
+      "endDate": "OCT 2021",
+      "title": "Iris8",
+      "subtitle": "Software Developer Intern",
+      "description": [
+        "Created scripts to capture servers status and post it on a MySQL database managed a Express Node.js backend", "Designed and developed a dashboard in React to visualize all this servers status in real time", "Created tools to improve image detection capabilities using OpenCV in Python"
+      ],
+      "continuous": false
+    }
+  },
+  {
+    "PT": {
+      "startDate": "JUL 2021",
+      "endDate": "DEZ 2022",
+      "title": "Cowala",
+      "subtitle": "Co-fundador, Designer, Desenvolvedor Front e Mobile",
+      "description": ["Transformei ideias de clientes em aplicações reais. Começando por entender suas necessidades e então criando um design que funcionasse bem e atendesse seus desejos", "Gerenciei diferentes equipes de desenvolvimento sendo tanto um desenvolvedor quanto um gerente de produto", "Desenvolvi e deployei para produção múltiplas páginas React usando TypeScript", "Desenvolvi um App usando React Native e deployei ele na Play Store", "Construí uma rede IoT para lidar com o tráfego de diferentes sensores IoT usando LoRaWan e MQTT", "Contratei desenvolvedores para trabalhar na empresa comigo e com meus sócios"],
+      "continuous": false
+    },
+    "EN": {
+      "startDate": "JUL 2021",
+      "endDate": "DEC 2022",
+      "title": "Cowala",
+      "subtitle": "Co-founder, Designer, Front-end and Mobile Developer",
+      "description": [
+        "Transformed client ideas into real life applications. Starting by understanding their needs and then creating a design that worked well and full filled their desires", "Managed different development teams being both a developer and a product manager", "Developed and deployed to production multiple React pages using TypeScript", "Developed an App using React Native and deployed it on Play Store", "Built an IoT network to handle traffic from different IoT sensors using LoRaWan and MQTT", "Hired developers to work in the company with me and my partners"
+      ],
+      "continuous": false
+    }
+  }
+]

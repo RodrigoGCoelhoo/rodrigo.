@@ -1,0 +1,70 @@
+[
+  {
+    "PT": {
+      "startDate": "AGO 2015",
+      "endDate": "JAN 2016",
+      "title": "Intercâmbio - Canadá",
+      "subtitle": "Ecole Cariboo Hill Secondary School",
+      "description": [],
+      "continuous": false
+    },
+    "EN": {
+      "startDate": "AUG 2015",
+      "endDate": "DEC 2024",
+      "title": "Exchange Program - Canadá",
+      "subtitle": "Ecole Cariboo Hill Secondary School",
+      "description": [],
+      "continuous": false
+    }
+  },
+  {
+    "PT": {
+      "startDate": "MAR 2020",
+      "endDate": "JUL 2022",
+      "title": "Aluno Ensina - Cursinho popular gratuito online",
+      "subtitle": "Coordenador de TI",
+      "description": [
+        "Ajudei a manter uma plataforma totalmente gratuita onde milhares de estudantes do ensino médio podiam se preparar para os vestibulares", "Gerenciei um grupo de redação com mais de 10 professores para corrigir as redações semanais", "Criei um Dashboard no Google Analytics para entender melhor quem era nosso público e como poderíamos alcançar mais pessoas", "Desenvolvi ferramentas de automação usando Python para ajudar o dia a dia da equipe", "Fiz campanhas de email marketing para nos comunicarmos com os alunos"
+      ],
+      "continuous": false
+    },
+    "EN": {
+      "startDate": "MAR 2020",
+      "endDate": "JUL 2022",
+      "title": "Aluno Ensina - Free online prep course",
+      "subtitle": "IT Coordinator",
+      "description": [
+        "Helped to maintain a totally free platform where thousands of high school students could prepare themselves for tests to get into universities in Brazil", "Managed an essay group with more than 10 teachers to handle week assignments", "Created a Dashboard on Google Analytics to better understand who was our main public and how we could reach more people", "Developed automation tools using Python to help the everyday life of the team", "Made market email campaigns to communicate with the students"
+      ],
+      "continuous": false
+    }
+  },
+  {
+    "PT": {
+      "startDate": "FEV 2021",
+      "endDate": "DEZ 2021",
+      "title": "Insper Data - Entidade de Ciência de Dados no Insper",
+      "subtitle": "Membro",
+      "description": [
+        "Ganhei experiência em coleta, tratamento e visualização de dados",
+        "Realizei o scrapping de milhares de notícias de sites de notícias em todo o Brasil. Tratei e filtrei todos esses dados usando Python",
+        "Apliquei técnicas de machine learning não supervisionado e métodos de clusterização para encontrar padrões nos dados",
+        "Construí um dashboard dinâmico para visualizar todos os dados com filtros de termo e período usando Plotly Dash e Flask"
+      ],
+      "continuous": false
+    },
+    "EN": {
+      "startDate": "FEB 2021",
+      "endDate": "DEC 2021",
+      "title": "Insper Data - Data Science Entity at Insper",
+      "subtitle": "Member",
+      "description": [
+        "Gained expertise in data collection, treatment and visualization",
+        "Scrapped thousands of news from News Websites across Brazil. Treated and filtered all this data using Python",
+        "Applied non-supervised machine learning techniques and clusterization methods to find patterns in the data",
+        "Built a dynamic dashboard to visualize all the data with term and period filters using Plotly Dash and Flask"
+      ],
+      "continuous": false
+    }
+  }
+]

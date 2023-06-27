@@ -1,0 +1,44 @@
+[
+  {
+    "PT": {
+      "startDate": "FEV 2020",
+      "endDate": "DEZ 2024",
+      "title": "Insper",
+      "subtitle": "Engenharia da computação",
+      "description": ["Média geral 8.9/10"],
+      "continuous": false
+    },
+    "EN": {
+      "startDate": "FEB 2020",
+      "endDate": "DEC 2024",
+      "title": "Insper",
+      "subtitle": "Computer engineering",
+      "description": [
+        "Got a 8.9/10 as my average overall score (equivalent to 3.6 GPA)"
+      ],
+      "continuous": false
+    }
+  },
+  {
+    "PT": {
+      "startDate": "JAN 2023",
+      "endDate": "MAI 2023",
+      "title": "ESILV ‐ Ecole Supérieure d’Ingénieurs Léonard de Vinci",
+      "subtitle": "Intercâmbio - Dados e Inteligência Artificial",
+      "description": ["Prêmio de melhor nota nos projetos de MongoDB e Elastic Search na disciplina ”Tópicos avançados em bases de dados NoSQL” ", "Média no semestre 9,05/10"],
+      "continuous": false
+    },
+    "EN": {
+      "startDate": "JAN 2023",
+      "endDate": "MAY 2023",
+      "title": "ESILV ‐ Ecole Supérieure d’Ingénieurs Léonard de Vinci",
+      "subtitle": "Exchange program ‐ Data and Artificial Intelligence",
+      "description": [
+        "Got MongoDB and Elastic Search awards on the subject ”Advanced Topics in NoSQL Databases” which are given for the highest project marks",
+        "Got a 3.62 GPA in the semester"
+      ],
+      "continuous": false
+    }
+  }
+]
+
