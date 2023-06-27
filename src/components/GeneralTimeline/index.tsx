@@ -19,7 +19,7 @@ export default function GeneralTimeline({
 }: GeneralTimelineProps) {
   return (
     <div className={`flex h-full w-full flex-row ${!continuous && 'mb-16'}`}>
-      <div className="relative flex flex-col justify-between">
+      <div className="relative flex min-w-[75px] flex-col justify-between">
         <span className="whitespace-pre text-base font-light text-my-gray">
           {startDate}
         </span>
@@ -44,7 +44,7 @@ export default function GeneralTimeline({
         <span className="mb-2 text-2xl font-semibold leading-5">{title}</span>
         <span className="mb-4 text-lg font-light leading-5">{subtitle}</span>
 
-        <ul className="mb-8 ml-2">
+        <ul className="mb-8 ml-2 min-h-[100px]">
           {description ? (
             description.map((item, index) => (
               <li key={index} className="text-base font-light leading-6">
