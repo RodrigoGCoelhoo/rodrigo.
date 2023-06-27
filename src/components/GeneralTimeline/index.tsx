@@ -3,8 +3,9 @@ interface GeneralTimelineProps {
   endDate: string
   title: string
   subtitle: string
-  description: string[]
+  description?: string[]
   color: string
+  continuous: boolean
 }
 
 export default function GeneralTimeline({
@@ -14,9 +15,10 @@ export default function GeneralTimeline({
   subtitle,
   description,
   color,
+  continuous,
 }: GeneralTimelineProps) {
   return (
-    <div className="flex h-full w-full flex-row">
+    <div className={`flex h-full w-full flex-row ${!continuous && 'mb-16'}`}>
       <div className="relative flex flex-col justify-between">
         <span className="whitespace-pre text-base font-light text-my-gray">
           {startDate}
@@ -43,11 +45,15 @@ export default function GeneralTimeline({
         <span className="mb-4 text-lg font-light leading-5">{subtitle}</span>
 
         <ul className="mb-8 ml-2">
-          {description.map((item, index) => (
-            <li key={index} className="text-base font-light leading-6">
-              - {item}
-            </li>
-          ))}
+          {description ? (
+            description.map((item, index) => (
+              <li key={index} className="text-base font-light leading-6">
+                - {item}
+              </li>
+            ))
+          ) : (
+            <div className="h-32"></div>
+          )}
         </ul>
       </div>
     </div>
